@@ -1,0 +1,26 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+.container
+{
+  top: 250%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 125%;
+    height: auto;
+
+    @media (min-width: 768px) {
+      width:130%;
+    }
+
+    @media (min-width: 992px) {
+      width: 100%;
+    }
+  }
+}

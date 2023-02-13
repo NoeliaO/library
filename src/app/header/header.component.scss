@@ -1,0 +1,13 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+header {
+  background-color: $primary-dk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100% ;
+  height: 133px;
+  top: 0;
+}
